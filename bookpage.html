@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>UTFPR-Orientação Objetos</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Cadastro de Livros</h1>
+
+    <input id="iptTitle" type="text" placeholder="Digite o nome do livro" />
+    <input id="iptWriter" type="text" placeholder="Digite o autor" />
+    <input id="iptYear" type="number" placeholder="Digite o ano do livro" />
+    <input id="btnSave" type="button" value="Cadastrar" />
+    <input id="btnList" type="button" value="Listar" />
+
+    <p id="pgrTitle"></p>
+    <p id="pgrWriter"></p>
+
+    <table>
+      <th>Nome</th>
+      <th>Autor</th>
+      <th>Ano de publicação</th>
+      <tbody id="tblBook"></tbody>
+    </table>
+
+    <a href="/index.html">Voltar</a>
+    <script src="src/index.ts"></script>
+  </body>
+</html>
